@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5C82941606256900B1A20F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C82931606256900B1A20F /* UIKit.framework */; };
+		BD5C82961606256900B1A20F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C82951606256900B1A20F /* Foundation.framework */; };
+		BD5C82981606256900B1A20F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C82971606256900B1A20F /* CoreGraphics.framework */; };
+		BD5C829E1606256900B1A20F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD5C829C1606256900B1A20F /* InfoPlist.strings */; };
+		BD5C82A01606256900B1A20F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C829F1606256900B1A20F /* main.m */; };
+		BD5C82A41606256900B1A20F /* ZZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C82A31606256900B1A20F /* ZZAppDelegate.m */; };
+		BD5C82A71606256900B1A20F /* ZZMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C82A61606256900B1A20F /* ZZMasterViewController.m */; };
+		BD5C82AA1606256900B1A20F /* ZZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C82A91606256900B1A20F /* ZZDetailViewController.m */; };
+		BD5C82AD1606256900B1A20F /* ZZMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5C82AB1606256900B1A20F /* ZZMasterViewController.xib */; };
+		BD5C82B01606256900B1A20F /* ZZDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5C82AE1606256900B1A20F /* ZZDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD5C828F1606256900B1A20F /* HermesLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermesLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5C82931606256900B1A20F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD5C82951606256900B1A20F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD5C82971606256900B1A20F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD5C829B1606256900B1A20F /* HermesLite-Info.plist */ = {isa = PBXFileReference; path = "HermesLite-Info.plist"; sourceTree = "<group>"; };
+		BD5C829D1606256900B1A20F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD5C829F1606256900B1A20F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD5C82A11606256900B1A20F /* HermesLite-Prefix.pch */ = {isa = PBXFileReference; path = "HermesLite-Prefix.pch"; sourceTree = "<group>"; };
+		BD5C82A21606256900B1A20F /* ZZAppDelegate.h */ = {isa = PBXFileReference; path = ZZAppDelegate.h; sourceTree = "<group>"; };
+		BD5C82A31606256900B1A20F /* ZZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAppDelegate.m; sourceTree = "<group>"; };
+		BD5C82A51606256900B1A20F /* ZZMasterViewController.h */ = {isa = PBXFileReference; path = ZZMasterViewController.h; sourceTree = "<group>"; };
+		BD5C82A61606256900B1A20F /* ZZMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMasterViewController.m; sourceTree = "<group>"; };
+		BD5C82A81606256900B1A20F /* ZZDetailViewController.h */ = {isa = PBXFileReference; path = ZZDetailViewController.h; sourceTree = "<group>"; };
+		BD5C82A91606256900B1A20F /* ZZDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZDetailViewController.m; sourceTree = "<group>"; };
+		BD5C82AC1606256900B1A20F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZZMasterViewController.xib; sourceTree = "<group>"; };
+		BD5C82AF1606256900B1A20F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZZDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5C828C1606256900B1A20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C82941606256900B1A20F /* UIKit.framework in Frameworks */,
+				BD5C82961606256900B1A20F /* Foundation.framework in Frameworks */,
+				BD5C82981606256900B1A20F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5C82841606256800B1A20F = {
+			isa = PBXGroup;
+			children = (
+				BD5C82991606256900B1A20F /* HermesLite */,
+				BD5C82921606256900B1A20F /* Frameworks */,
+				BD5C82901606256900B1A20F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5C82901606256900B1A20F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C828F1606256900B1A20F /* HermesLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5C82921606256900B1A20F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C82931606256900B1A20F /* UIKit.framework */,
+				BD5C82951606256900B1A20F /* Foundation.framework */,
+				BD5C82971606256900B1A20F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD5C82991606256900B1A20F /* HermesLite */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C82A21606256900B1A20F /* ZZAppDelegate.h */,
+				BD5C82A31606256900B1A20F /* ZZAppDelegate.m */,
+				BD5C82A51606256900B1A20F /* ZZMasterViewController.h */,
+				BD5C82A61606256900B1A20F /* ZZMasterViewController.m */,
+				BD5C82A81606256900B1A20F /* ZZDetailViewController.h */,
+				BD5C82A91606256900B1A20F /* ZZDetailViewController.m */,
+				BD5C82AB1606256900B1A20F /* ZZMasterViewController.xib */,
+				BD5C82AE1606256900B1A20F /* ZZDetailViewController.xib */,
+				BD5C829A1606256900B1A20F /* Supporting Files */,
+			);
+			path = HermesLite;
+			sourceTree = "<group>";
+		};
+		BD5C829A1606256900B1A20F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C829B1606256900B1A20F /* HermesLite-Info.plist */,
+				BD5C829C1606256900B1A20F /* InfoPlist.strings */,
+				BD5C829F1606256900B1A20F /* main.m */,
+				BD5C82A11606256900B1A20F /* HermesLite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5C828E1606256900B1A20F /* HermesLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5C82B31606256900B1A20F /* Build configuration list for PBXNativeTarget "HermesLite" */;
+			buildPhases = (
+				BD5C828B1606256900B1A20F /* Sources */,
+				BD5C828C1606256900B1A20F /* Frameworks */,
+				BD5C828D1606256900B1A20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HermesLite;
+			productName = HermesLite;
+			productReference = BD5C828F1606256900B1A20F /* HermesLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5C82861606256800B1A20F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZZ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = wiseflag.com;
+			};
+			buildConfigurationList = BD5C82891606256800B1A20F /* Build configuration list for PBXProject "HermesLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD5C82841606256800B1A20F;
+			productRefGroup = BD5C82901606256900B1A20F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5C828E1606256900B1A20F /* HermesLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5C828D1606256900B1A20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C829E1606256900B1A20F /* InfoPlist.strings in Resources */,
+				BD5C82AD1606256900B1A20F /* ZZMasterViewController.xib in Resources */,
+				BD5C82B01606256900B1A20F /* ZZDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5C828B1606256900B1A20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5C82A01606256900B1A20F /* main.m in Sources */,
+				BD5C82A41606256900B1A20F /* ZZAppDelegate.m in Sources */,
+				BD5C82A71606256900B1A20F /* ZZMasterViewController.m in Sources */,
+				BD5C82AA1606256900B1A20F /* ZZDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD5C829C1606256900B1A20F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5C829D1606256900B1A20F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD5C82AB1606256900B1A20F /* ZZMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5C82AC1606256900B1A20F /* en */,
+			);
+			name = ZZMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		BD5C82AE1606256900B1A20F /* ZZDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5C82AF1606256900B1A20F /* en */,
+			);
+			name = ZZDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5C82B11606256900B1A20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD5C82B21606256900B1A20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5C82B41606256900B1A20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HermesLite/HermesLite-Prefix.pch";
+				INFOPLIST_FILE = "HermesLite/HermesLite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD5C82B51606256900B1A20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HermesLite/HermesLite-Prefix.pch";
+				INFOPLIST_FILE = "HermesLite/HermesLite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5C82891606256800B1A20F /* Build configuration list for PBXProject "HermesLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5C82B11606256900B1A20F /* Debug */,
+				BD5C82B21606256900B1A20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5C82B31606256900B1A20F /* Build configuration list for PBXNativeTarget "HermesLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5C82B41606256900B1A20F /* Debug */,
+				BD5C82B51606256900B1A20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5C82861606256800B1A20F /* Project object */;
+}
